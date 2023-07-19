@@ -1,0 +1,219 @@
+/* work sans google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* default styles */
+*{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display: none;
+}
+
+/* spans */
+.G{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.colored-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* header styles */
+header{
+    /* width: 80%;
+    margin: 0 auto; */
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-height: 100px;
+    padding: 0 10% 0 10%;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-logo > div > img {
+    height: 30px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    gap: 20px;
+}
+.title{
+    font-size: 2.1rem;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.nav-menu-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-menu-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 0 20px;
+    height: 45px;
+}
+.nav-menu-left p , .nav-menu-right p {
+    font-size:.95rem;
+    font-weight: 600;
+}
+.nav-menu-right>div img {
+    width: 24px;
+    margin-left: 6px;
+}
+/* play like section */
+.play-like{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+.play-like-content{
+    
+}
+.play-like-content h3{
+    font-weight: 600;
+    font-size:2rem;
+
+}
+.play-like-content h1{
+    font-size: 4rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+.play-like-anchor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.play-like-anchor p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.play-like-btn{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+.play-like-btn .btn-1{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: white;
+    padding: 15px 30px;
+    border: 0;
+}
+.play-like-btn .btn-2{
+    color: white;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+
+.play-like-img{
+    height: 500px;
+}
+
+
+/* main section */
+
+/* online games section */
+.online-games{
+    margin: 120px 10% 0 10%;
+}
+.online-games-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.online-games>p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.online-games-title , .online-games>p {
+    text-align: center;
+}
+.online-games-cards{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 48px;
+
+}
+.online-games-cards img {
+    height: 300px;
+}
+.online-games-cards p {
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 5px;
+    line-height: 25px;
+
+}
+.online-games-cards card{
+    display: flex;
+    flex-direction: column;
+}
+
+/* play instant section */
+.play-instant{
+    margin:120px 10%;
+     display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+.play-instant-content{
+    display: flex;
+}
+.play-instant-title{
+    font-size: 2rem;
+    line-height: 40px;
+    text-align: right;
+}
+.play-instant-description{
+    text-align: right;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+.cowboy{
+    height: 500px;;
+}
+.angela{
+    height: 300px;
+    
+}
