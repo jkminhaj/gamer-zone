@@ -37,6 +37,21 @@
         left:-55px;
         top:120px;
     }
+    footer{
+        text-align: center;
+    }
+    .footer-container{
+        padding: 20px 10% 20px 10%;
+    }
+    .footer-menu{
+        justify-content: center;
+        gap: 15px;
+    }
+    .policy{
+        gap: 10px;
+        justify-content: center;
+    }
+
 
 }
 /* For tablet devices */
@@ -78,5 +93,21 @@
         height: 121px;
         left:-55px;
         top:120px;
+    }
+
+    footer{
+        text-align: center;
+    }
+    .footer-container{
+        padding: 20px 10% 20px 10%;
+    }
+    .footer-menu{
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .policy{
+        gap: 10px;
+        justify-content: center;
     }
 }
