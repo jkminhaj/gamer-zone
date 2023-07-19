@@ -269,7 +269,27 @@ footer{
 }
 .footer-menu{
     display: flex;
+    gap: 50px;
+}
+.footer-menu p {
+    font-size: .9rem;
+    font-weight: 600;
 }
 .policy{
     display: flex;
+    gap: 50px;
+}
+.policy p, .copyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .9rem;
+    font-weight: 500;
+}
+.footer-logo{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.footer-logo img{
+    height: 30px;
 }
