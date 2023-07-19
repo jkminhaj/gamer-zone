@@ -190,22 +190,24 @@ nav{
 
 /* play instant section */
 .play-instant{
-    margin:120px 10%;
+    margin:120px 10% 0 10%;
      display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: start;
 
 }
 .play-instant-content{
     display: flex;
+    flex-direction: column;
 }
 .play-instant-title{
     font-size: 2rem;
     line-height: 40px;
-    text-align: right;
+    text-align: left;
 }
 .play-instant-description{
-    text-align: right;
+    text-align: left;
     font-size: .9rem;
     font-weight: 400;
     line-height: 20px;
@@ -214,6 +216,9 @@ nav{
     height: 500px;;
 }
 .angela{
-    height: 300px;
+    height: 250px;
+    position: relative;
+    top:100px;
+    right: 115px;
     
 }
