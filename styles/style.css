@@ -211,6 +211,7 @@ nav{
     font-size: .9rem;
     font-weight: 400;
     line-height: 20px;
+    margin-top: 20px;
 }
 .cowboy{
     height: 500px;;
@@ -220,5 +221,37 @@ nav{
     position: relative;
     top:100px;
     right: 115px;
-    
+}
+
+/* Categories Section */
+.categories{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 200px;
+    padding: 120px 10%;
+
+}
+.category-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
+.category-item{
+    width: 202px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #fffefe;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+.category-ico img {
+    height: 40px;
+    margin:4px 0 0 9px;
+}
+.category-name p {
+    font-size: .9rem;
+    font-weight: 600;
 }
