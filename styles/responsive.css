@@ -1,3 +1,4 @@
+/* for mobile devices */
 @media screen and (max-width:425px) {
     /* nav section */
     nav{
@@ -13,7 +14,29 @@
     /* play like section */
     .play-like{
         flex-direction: column-reverse;
-        margin-top: 20px;
+        margin-top: 40px;
+    }
+    .play-like-content{
+        margin-top: 30px;
+    }
+    .play-like-content h3 {
+        font-size:1.3rem;
+        text-align: center;
+    }
+    .play-like-content h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .play-like-anchor{
+        align-items: center;
+        margin-left: 40px;
+    }
+    .play-like-btn{
+        text-align: center;
+        justify-content: center;
+    }
+    .play-like-btn .btn-1 , .btn-2{
+        font-size: .6rem;
     }
     .play-like-bg{
         display: none;
@@ -27,20 +50,28 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-bottom: -80px;
+        margin-top: 50px;
+    }
+    .play-instant-title{
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 35px;
     }
     .play-instant-img-container{
         margin-top: 40px;
         display: flex;
+        max-width:250px;
         
     }
     .cowboy{
         /* display: none; */
-        height: 220px;
+        height: 250px;
     }
     .angela{
         height: 121px;
         left:-55px;
-        top:120px;
+        top:170px;
     }
      /* Categories */
      .categories{
@@ -48,6 +79,17 @@
      }
      .category-container{
         gap:10px;
+    }
+    /* online games */
+    .online-games{
+        margin-top:60px;
+    }
+    .online-games-title{
+        font-size:1.5rem;
+    }
+    .online-games-cards{
+        flex-direction: column;
+        align-items: center;
     }
 
 
@@ -120,13 +162,16 @@
     }
     .cowboy{
         /* display: none; */
-        height: 220px;
+        height: 300px;
     }
     .angela{
-        height: 121px;
+        height: 150px;
         left:-55px;
-        top:120px;
+        top:190px;
     }
+    /* online games */
+    .online-games{
+        margin-top:30px;
 
     footer{
         text-align: center;
@@ -136,7 +181,6 @@
     }
     .footer-menu{
         justify-content: center;
-        gap: 15px;
     }
 
     .policy{
