@@ -46,7 +46,6 @@
         width: 110%;
         position: absolute;
         top: -8px;
-        z-index: -5;
     }
     .play-like-img{
         height: 250px;
@@ -73,7 +72,7 @@
     }
     .cowboy{
         /* display: none; */
-        height: 250px;
+        height: 230px;
     }
     .angela{
         height: 121px;
