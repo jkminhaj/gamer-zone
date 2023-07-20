@@ -16,6 +16,9 @@ body{
 .hide{
     display: none;
 }
+.pointer-on-hover {
+    cursor: pointer;
+  }
 
 /* spans */
 .G{

@@ -46,6 +46,7 @@
         width: 110%;
         position: absolute;
         top: -8px;
+        z-index: -5;
     }
     .play-like-img{
         height: 250px;
