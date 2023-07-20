@@ -24,9 +24,14 @@
     /* play instant */
     .play-instant{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .play-instant-img-container{
+        margin-top: 40px;
         display: flex;
+        
     }
     .cowboy{
         /* display: none; */
@@ -37,6 +42,16 @@
         left:-55px;
         top:120px;
     }
+     /* Categories */
+     .categories{
+        padding: 50px 5%;
+     }
+     .category-container{
+        gap:10px;
+    }
+
+
+
     footer{
         text-align: center;
     }
@@ -78,7 +93,25 @@
     .play-like-img{
         height: 250px;
     }
+
+    /* online games */
+    .online-games{
+        text-align: center;
+    }
+
+
     /* play instant */
+    .play-instant{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .play-instant-img-container{
+        margin-top: 40px;
+        display: flex;
+        
+    }
     .play-instant{
         flex-direction: column;
     }

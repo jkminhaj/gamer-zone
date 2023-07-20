@@ -181,7 +181,7 @@ nav{
 .online-games-cards img {
     height: 300px;
     box-sizing: border-box;
-
+    position: relative;
 }
 .online-games-cards img:hover ,.online-games-cards img:focus {
     border: 4px solid #FF42A5;
@@ -204,10 +204,57 @@ nav{
     flex-direction: column;
 }
 
+
+
+/* online games part 2  */
+/* New styles for the image container and overlay */
+.image-container {
+    position: relative;
+  }
+  
+  /* Style for the play button SVG */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98.5%;
+    height: 97.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0; /* Initially hidden, will be shown on hover */
+    transition: opacity 0.3s ease;
+    border:3px solid #F948B2;
+    border-radius: 10px;
+  }
+  
+  /* Show the overlay when hovering over the image */
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  /* Style for the play button */
+  .overlay svg {
+    width: 48px;
+    height: 48px;
+    fill: #ffffff;
+  }
+  
+  /* Style for the "Watch Now" text */
+  .watch-now {
+    color: #FF42A5;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+
+
 /* play instant section */
 .play-instant{
     margin:120px 10% 0 10%;
-     display: flex;
+    display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: start;
@@ -297,7 +344,7 @@ footer{
 .footer-menu p {
     font-size: .9rem;
     font-weight: 600;
-    
+
 }
 .policy{
     display: flex;
