@@ -149,8 +149,16 @@
         flex-direction: column-reverse;
         margin-top: 20px;
     }
+    .play-like-content{
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
     .play-like-bg{
-        display: none;
+        height: 115%;
+        width: 130%;
+        top: -15px;
+        left: -20px;
     }
     .play-like-img{
         height: 250px;
@@ -158,38 +166,50 @@
 
     /* online games */
     .online-games{
-        text-align: center;
+        margin-top:60px;
+    }
+    .online-games-title{
+        font-size:1.5rem;
+    }
+    .online-games-cards{
+        align-items: center;
+        gap: 5px;
     }
 
 
     /* play instant */
     .play-instant{
-        flex-direction: column;
+
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-bottom: -20px;
+        margin-top: 50px;
+        flex-wrap: wrap;
+
+    }
+    .play-instant-title{
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 35px;
     }
     .play-instant-img-container{
         margin-top: 40px;
         display: flex;
+        max-width:310px;
+        justify-content: center;
+        align-items: center;
         
-    }
-    .play-instant{
-        flex-direction: column;
-    }
-    .play-instant-img-container{
-        display: flex;
     }
     .cowboy{
         /* display: none; */
-        height: 300px;
+        height: 250px;
     }
     .angela{
         height: 150px;
         left:-55px;
-        top:190px;
+        top:120px;
     }
-
     
     /* online games */
     .online-games{
@@ -210,4 +230,32 @@
         justify-content: center;
     }
     }
-}
+    }
+    .category-container{
+        padding: 5px 0px;
+    }
+    .category-item{
+        width: 150px;
+    }
+    .category-ico img {
+        width: 30px;
+        height: 30px;
+    }
+    .category-name p {
+        font-size:.7rem;
+    }
+
+        footer{
+            text-align: center;
+        }
+        .footer-container{
+            padding: 20px 10% 20px 10%;
+        }
+        .footer-menu{
+            justify-content: center;
+            gap: 15px;
+        }
+        .policy{
+            gap: 10px;
+            justify-content: center;
+        }
